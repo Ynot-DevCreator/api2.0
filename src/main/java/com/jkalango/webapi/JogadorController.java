@@ -13,7 +13,7 @@ import com.jkalango.webapi.jogadores.JogadorRepository;
 import jakarta.transaction.Transactional;
 
 @RestController
-@RequestMapping("/jogador")
+@RequestMapping("/api/jogadores")
 public class JogadorController {
 
     // O que é injeção de dependencia?
